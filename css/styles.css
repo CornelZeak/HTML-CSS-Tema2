@@ -134,14 +134,6 @@
   background-color: blue;
   border-radius: 1px 1px 1px 1px;
 }
-.hero-section button {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
-}
 .main-content {
   font-family: var(--main-font);
   line-height: 16px;
@@ -178,7 +170,7 @@
   color: var(--black);
   font-weight: 500;
 }
-/*portofolio section*/
+/*portofolio-section*/
 .portofolio-content {
   font-size: 16px;
   text-align: center;
