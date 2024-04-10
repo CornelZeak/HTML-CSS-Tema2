@@ -66,13 +66,13 @@
   padding: 20px;
 }
 .menu-link:hover {
+  cursor: pointer;
   color: var(--blue);
 }
 .menu-link:focus {
   color: var(--blue);
 }
 .menu-link {
-  cursor: pointer;
   text-decoration: none;
   color: var(--black);
 }
