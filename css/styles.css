@@ -7,6 +7,12 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
 }
+html {
+  -webkit-text-size-adjust: 100%;
+}
+.container {
+  width: 1200px;
+}
 /*our-website-section*/
 .our-website {
   font-family: var(--main-font);
@@ -15,7 +21,6 @@
 }
 /*header-section*/
 .header-section {
-  width: 1600px;
   height: 80px;
   display: inline-flex;
   flex-direction: row;
@@ -42,7 +47,7 @@
   text-decoration: none;
   display: inline-flex;
   flex-direction: row;
-  padding-left: 50px;
+  margin-left: 50px;
 }
 .header-section__list-main {
   display: inline-flex;
@@ -78,28 +83,22 @@
 }
 /*header-section-right-side*/
 .header-section__right-block {
-  align-items: center;
-  padding-left: 300px;
-  padding-top: 30px;
+  align-items: baseline;
   display: inline-flex;
   flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 200px;
 }
 /*header-section-left-side*/
-.mail {
-  padding-right: 40px;
-  padding-bottom: 15px;
-}
-.phone {
-  padding-bottom: 15px;
-}
+
 /*hero-section*/
 .hero-section {
-  align-items: center;
-  text-align: center;
-  width: 1600px;
   height: 600px;
   top: 80px;
   background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hero-section-title {
   font-size: 44px;
@@ -108,10 +107,6 @@
   letter-spacing: 0.06em;
   text-align: center;
   color: #ffffff;
-  width: 696px;
-  height: 120px;
-  top: 280px;
-  left: 452px;
 }
 /*hero section button*/
 .hero-section button {
