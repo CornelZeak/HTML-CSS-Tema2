@@ -13,11 +13,15 @@ html {
 .container {
   width: 1200px;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
 /*our-website-section*/
 .our-website {
   font-family: var(--main-font);
   font-weight: 500;
-  color: var(--black);
+  color: black;
 }
 /*header-section*/
 .header-section {
